@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Series</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Web Series</h1>
+    <div class="container1">
+        <div class="fitem1">
+            <form action="#">
+                <div class="form1">
+                   Title : <input type="text" id="title">
+                </div>
+                <div class="form1">
+                    Director : <input type="text" id="director">
+                 </div>
+                 <div class="form1">
+                    Stars/Ratings : <input type="text" id="ratings">
+                 </div>
+                 <div class="form1">
+                    Streaming On : <input type="text" id="streamingOn">
+                 </div>
+                 <div class="form1">
+                    <button onclick="getValues()" id="btn1">ADD</button>
+                 </div>
+
+                 <p class="output" id="output1"></p>
+            
+            </form>
+
+        </div>
+        <div class="fitem1">
+            <div class="cardbox" id ="card1">
+                <div class="movie1">
+                    <button class="btn1" type="button" onclick="removeCard('card1')">Remove</button>
+                    <h3><strong>Title :-</strong> Inception</h3>
+                    <h4><strong>Director :-</strong> Christopher Nolan</h4>
+                        
+                    <h4><strong>Ratings :-</strong>
+                       8.8 </h4>  
+                        <h4><strong>Streaming On :-</strong> Amazon Prime</h4> 
+                </div>
+    
+            </div>
+              <div class="cardbox" id="card2">
+                <div class="movie1">
+                    <button class="btn1" type="button" onclick="removeCard('card2')">Remove</button>
+                <h3><strong>Title :-</strong> Interstellar</h3>
+                <h4><strong>Director :-</strong> Christopher Nolan</h4>
+                    
+                <h4><strong>Ratings :-</strong>
+                    8.7</h4>  
+                    <h4><strong>Streaming On :-</strong> Netflix</h4> 
+            </div>
+        </div>
+              <div class="cardbox" id="card3">
+                <div class="movie1">
+                <button class="btn1" type="button" onclick="removeCard('card3')">Remove</button>
+                <h3><strong>Title :-</strong> Prison Break</h3>
+                <h4><strong>Director :-</strong> Paul T. Scheuring</h4>
+                    
+                <h4><strong>Ratings :-</strong>
+                    8.3</h4>  
+                    <h4><strong>Streaming On :-</strong> Amazon Prime</h4> 
+            </div>
+        </div>
+              <div class="cardbox" id="card4">
+                <div class="movie1">
+                <button class="btn1" type="button" onclick="removeCard('card4')">Remove</button>
+                <h3><strong>Title :-</strong> Rang De Basanti</h3>
+                <h4><strong>Director :-</strong> Rakeysh Omprakash</h4>
+                    
+                <h4><strong>Ratings :-</strong> 8.1
+            </h4>  
+                    <h4><strong>Streaming On :-</strong> Hot Star</h4> 
+            </div>
+        </div>
+              <div class="cardbox" id="card5">
+                <div class="movie1">
+                <button class="btn1" type="button" onclick="removeCard('card5')">Remove</button>
+                <h3><strong>Title :-</strong> Rockstar</h3>
+                <h4><strong>Director :-</strong> Imtiaz Ali</h4>
+                    
+                <h4><strong>Ratings :-</strong> 7.7
+                    </h4>  
+                    <h4><strong>Streaming On :-</strong> Amazon Prime</h4> 
+            </div>
+        </div>
+              <div class="cardbox" id="card6">
+                <div class="movie1">
+                <button class="btn1" type="button" onclick="removeCard('card6')">Remove</button>
+                <h3><strong>Title :-</strong> Air</h3>
+                <h4><strong>Director :-</strong> 
+                    Ben Affleck</h4>
+                    
+                <h4><strong>Ratings :-</strong> 7.5
+                    </h4>  
+                    <h4><strong>Streaming On :-</strong> Netflix</h4> 
+            </div>
+        </div>
+            </div>
+            
+        </div>
+
+        </div>
+
+    </div>
+    
+<script src="main.js"></script>    
+</body>
+</html>
